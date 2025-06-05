@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0bfed191458e1f4f94d6c207ff6d790, type: 3}
+  m_Name: DesertBiome
+  m_EditorClassIdentifier: 
+  biomeName: Desert
+  terrainMeshIndex: 1
+  blocks:
+  - {fileID: 589413291402792439, guid: 7e21dcca228a2624188d7a597c52221e, type: 3}
+  obstacles:
+  - {fileID: 7665980813749020303, guid: 712f84a502483604395ce6d1a10a3104, type: 3}
+  - {fileID: 7325178694110617415, guid: ca3b917076fcef843a1233fb6f0dc8da, type: 3}
+  foodObjects:
+  - {fileID: 2845240514217367883, guid: 6d9a81b800b640940bac3d5acf9b275c, type: 3}
+  - {fileID: 1022539648154954, guid: d3c28b9872a1d3a4dbd164fa5b7b6168, type: 3}
+  blockColliders:
+  - {fileID: 1676794482087656052, guid: fef1c6fb95000ed46922e7211c4a517d, type: 3}
+  - {fileID: 1676794482087656052, guid: 736100dee50011745b0a36419994f8e9, type: 3}

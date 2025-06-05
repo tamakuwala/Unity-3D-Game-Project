@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0bfed191458e1f4f94d6c207ff6d790, type: 3}
+  m_Name: GrassBiome
+  m_EditorClassIdentifier: 
+  biomeName: Grass
+  terrainMeshIndex: 5
+  blocks:
+  - {fileID: 589413291402792439, guid: a6dc52fcb18ed2d4aa99cc3252c0fda0, type: 3}
+  - {fileID: 589413291402792439, guid: 7cfa13a6f08cebc4e8a41c85de9081fe, type: 3}
+  obstacles:
+  - {fileID: 7665980813749020303, guid: 712f84a502483604395ce6d1a10a3104, type: 3}
+  - {fileID: 7291718899907230539, guid: 75b0248f1dca9e44290cbe955fa51c61, type: 3}
+  foodObjects:
+  - {fileID: 2845240514217367883, guid: 6d9a81b800b640940bac3d5acf9b275c, type: 3}
+  - {fileID: 1022539648154954, guid: d3c28b9872a1d3a4dbd164fa5b7b6168, type: 3}
+  blockColliders:
+  - {fileID: 1676794482087656052, guid: fef1c6fb95000ed46922e7211c4a517d, type: 3}
+  - {fileID: 1676794482087656052, guid: 736100dee50011745b0a36419994f8e9, type: 3}

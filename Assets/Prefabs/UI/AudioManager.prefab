@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6316787056373483023
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6316787056373483020}
+  - component: {fileID: 6316787056373483021}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6316787056373483020
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6316787056373483023}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6316787056373483021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6316787056373483023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21b3475028daa134196b4e5ad0238d77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: SpeedBoost
+    clip: {fileID: 8300000, guid: abd03fe176175cc45bd682ab2bfccb2d, type: 3}
+    volume: 0.074
+    pitch: 1.53
+    source: {fileID: 0}
+  - name: Alert
+    clip: {fileID: 8300000, guid: 7aa4fc4c8c3811b4a81182d7b66885dc, type: 3}
+    volume: 0.074
+    pitch: 1
+    source: {fileID: 0}
+  - name: Sizzle
+    clip: {fileID: 8300000, guid: f7a147c9ef30f5e47b84b6b687e081d8, type: 3}
+    volume: 0.204
+    pitch: 0.57
+    source: {fileID: 0}
+  - name: Squish
+    clip: {fileID: 8300000, guid: 9de9a42075ca828408c1ce6ae4c961a0, type: 3}
+    volume: 0.426
+    pitch: 1.12
+    source: {fileID: 0}
+  - name: TreeDead
+    clip: {fileID: 8300000, guid: bfeecdefb6214a7479d222e29d268d7f, type: 3}
+    volume: 0.426
+    pitch: 1
+    source: {fileID: 0}
+  - name: TreeAttack
+    clip: {fileID: 8300000, guid: 5035e431f8a0bb34395f523326a79276, type: 3}
+    volume: 0.159
+    pitch: 1.12
+    source: {fileID: 0}
+  - name: RockAttack
+    clip: {fileID: 8300000, guid: 6ca388f1f0c123b4aa1a2d496407a0f9, type: 3}
+    volume: 0.159
+    pitch: 1.12
+    source: {fileID: 0}
+  - name: RockDead
+    clip: {fileID: 8300000, guid: 05b7df434dc74554a9a6fd1fc4ef0a1c, type: 3}
+    volume: 0.047
+    pitch: 1.12
+    source: {fileID: 0}

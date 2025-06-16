@@ -39,7 +39,7 @@ In **Jungle Run**, players must navigate through a dense jungle filled with obst
 - Abhi Tamakuwala  
 - Parthvi Solanki  
 - Micheal Judge 
-- Dorian 
+- Dorian Moore
 
 ---
 
